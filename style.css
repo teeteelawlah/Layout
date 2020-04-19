@@ -1,0 +1,111 @@
+body {
+  background: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3% 0;
+  text-transform: uppercase;
+  position: relative;
+}
+
+/* 
+#body {
+  background: url("goose.jpg");
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  background: #ffffff;
+  width: 75%;
+  height: 550px;
+}
+
+/* dark part */
+.detail {
+  background: #000000;
+  padding: 10px 50px;
+  color: #ffffff;
+  width: 35%;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 3.5rem;
+}
+
+.info {
+  text-transform: none;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin: 15px 0;
+}
+
+.btn {
+  text-align: center;
+}
+
+.button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 10px 55px;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+#btn {
+  margin-left: 10px;
+  background: transparent;
+  color: #ffffff;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.social p {
+  font-size: 0.6rem;
+}
+
+#facebook {
+  margin-left: 50px;
+}
+
+/* white part */
+.detail-page {
+  padding: 10px 20px 0 20px;
+}
+
+nav,
+nav li,
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+nav ul li a {
+  margin-right: 30px;
+  color: #000000;
+  text-decoration: none;
+  z-index: 3;
+}
+
+nav ol li a {
+  margin-left: 80px;
+  color: #000000;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.image img {
+  position: absolute;
+  width: 30%;
+  bottom: 40px;
+  right: 250px;
+}
